@@ -1,7 +1,7 @@
 from main import is_palindrome
 
-def palindrome_true():
+def test_palindrome_true():
     assert is_palindrome(121) == True
     
-def palindrome_false():
+def test_palindrome_false():
     assert is_palindrome(122) == False
